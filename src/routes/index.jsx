@@ -18,6 +18,7 @@ export const router = createBrowserRouter([
             {path: "portfolio", element: <Portfolio />},
             {path: "blog/:slug", element: <PostDetail />},
             {path: "/portfolio/:slug", element: <ProjectDetail />},
+            {path: "*", element: <NotFournd />},
         ]
     }
 ]);
