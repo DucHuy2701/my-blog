@@ -18,11 +18,6 @@ export default function Portfolio() {
           user experience, and real-world problem solving.
         </p>
 
-        <p className="text-gray-300 dark:text-gray-200">
-          Any contacts please visit my Linkedin:<br/>
-          <strong>www.linkedin.com/in/huy2701</strong>
-        </p>
-
       </div>
       <div className="border p-5 rounded-xl hover:border-primary hover:shadow-md transition">
         <h2 className="text-xl font-semibold mb-3">Featured Projects</h2>
