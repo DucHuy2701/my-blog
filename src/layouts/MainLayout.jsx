@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import Loader from "../components/common/Loader";
 import { motion, AnimatePresence } from "framer-motion";
 import WebGLBackground from "../components/common/WebGLBackground";
-import ShaderBackground from "../components/common/ShaderBackground";
 
 export default function MainLayout() {
   const [loading, setLoading] = useState(true);
@@ -38,7 +37,6 @@ export default function MainLayout() {
           <div className="min-h-screen bg-softBg text-gray-800 dark:bg-darkBg dark:text-gray-100">
             <div className="relative">
               <WebGLBackground />
-              {/* <ShaderBackground /> */}
               <CursorGlow />
               <div className="relative z-10">
                 <Navbar />
