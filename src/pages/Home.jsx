@@ -121,10 +121,10 @@ export default function Home() {
           </h2>
 
           <Link
-            to="/portfolio"
-            className="px-6 py-2 bg-primary text-white rounded-xl hover:scale-105 transition"
+            to="/resume"
+            className="rounded-xl px-6 py-2 bg-gradient-to-r from-primary to-indigo-400"
           >
-            Explore My Work
+            Check out my Resume
           </Link>
         </section>
       </div>

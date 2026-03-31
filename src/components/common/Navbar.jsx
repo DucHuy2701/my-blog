@@ -84,6 +84,21 @@ export default function Navbar() {
             </span>
           </NavLink>
 
+          {/* RESUME */}
+          <NavLink
+            to="/resume"
+            className={({ isActive }) =>
+              isActive
+                ? "text-primary"
+                : "text-gray-700 dark:text-gray-300 hover:text-primary"
+            }
+          >
+            <span className="relative group cursor-pointer">
+              Resume
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+            </span>
+          </NavLink>
+
           {/* TOGGLE THEME */}
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
