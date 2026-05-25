@@ -12,7 +12,7 @@ export default function Resume() {
           </h1>
 
           <a
-            href="/resume/huy-le-resume.pdf"
+            href="/resume/Resume_DucHuyLe.pdf"
             download
             className="px-5 py-2 bg-primary text-white rounded-lg hover:scale-105 transition"
           >
